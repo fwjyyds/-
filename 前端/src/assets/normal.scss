@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: orange;
+    padding: 0;
+    margin: 0;
+}
+ul{
+  
+    list-style: none;
+}
+#app {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    max-width: 10000px;
+}
+#ltk{
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+//背景1号
+.bg1 {
+    background-image: url('src/assets/print1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+//flex1号
+.flex1 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+}
+.flex2{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+ 
+}
+.flex3//竖着前后置
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+//头像1
+.img1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+//头像2
+.img2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0px solid #fff;
+}
+//头像3
+.img3 {
+    width: 46px;
+    height: 46px;
+    border: 0px solid #fff;
+}
+//头像4
+.img4 {
+    width: 42px;
+    height: 42px;
+    border: 0px solid #fff;
+}
+.img5 {
+    max-width: 400px;
+    max-height:300px;
+    border: 0px solid #fff;
+cursor: zoom-in;
+    padding:8px;
+}
+.img6{
+    width: 40px;
+    height: 40px;
+border-radius: 3px;
+    border: 0px solid #fff;
+}
+.img7{
+
+    height:80%;
+
+    opacity: 1;
+    z-index:1000;
+    transition: 0.3s ease;
+}
+.img8{
+    position:absolute;
+    top:0;
+    left:0;
+display: flex;
+justify-content: center;
+align-items: center;
+    width:100%;
+    height: 100%;
+    z-index:998; 
+    background-color: black;
+    opacity:0.95;
+}
+//宽体输入
+.input1 {
+    height: 20px;
+    width: 220px;
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+    padding: 10px;
+    font-size: 1.1em;
+}
+//窄体输入
+.input2 {
+    height:15px;
+    width: 50%;
+    border-radius: 0px;
+    border: 0px;
+    outline: none;
+    padding: 5px;
+    font-size: 0.8em;
+    background-color: e2e2e2;
+}
+
+.button1 {
+    width: 100px;
+    outline: none;
+}
+.button2 {
+    padding: 0;
+    margin:0;
+    width: 25px;
+    height:25px;
+    background-color: e2e2e2;
+    border-radius: 0px;
+    outline: none;
+}
+.button3 {
+    padding: 0;
+    margin:0;
+    width: 100px;
+    height:34px;
+    background-color: #e9e9e9;
+    border-radius: 6px;
+    outline: none;
+    color:#95ec69
+}
+.button4 {
+    color:red;
+    padding: 0;
+    margin:0;
+    width: 200px;
+    height:34px;
+    background-color: #e9e9e9;
+    border-radius: 6px;
+    outline: none;
+
+}
+//对话框1
+.triangleleft{
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 7px solid #ffffff;
+    margin-top:6px;
+}
+.dialog{
+    background-color: #ffffff;
+    padding:5px;
+    font-size:0.94em
+}
+.triangleright{
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 7px solid #95ec69;
+    margin-top:6px;
+}
+.dialog2{
+    background-color: #95ec69;
+    padding:5px;
+    font-size:0.94em
+}
+.settingblock{
+    color: #979797;
+    position: absolute;
+    top:-60px;
+    background-color: #202020;
+    height:100px;
+    width:100px;
+    left:60px;
+    font-size: 0.95em;
+}
+.redball{
+    background-color: #fa5151;
+    color:#ffffff;
+    font-size:0.6em;
+    width:16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:5px;
+    left:45px;
+}
+.li1{
+    font-size: 0.95em;
+    display: flex;
+    justify-content: flex-start;
+    padding:10px;
+    cursor: pointer;
+}
+//黑暗高亮
+.li1:hover{
+    background-color:  #3d3d3d;
+
+}
+.timek{
+    background-color: lightgrey;
+padding:0px 10px;
+    color:#ffffff;
+    font-size: 0.8em;
+    border-radius: 4px;
+}
+.rightk{
+ 
+    width:0px;
+    height:calc(100% - 45px);
+    overflow: hidden;
+    position: absolute;
+    right:0px;
+   bottom: 0px;
+    background-color: #ffffff;
+    border-left:1px solid #e2e2e2;
+    transition: 0.3s ease-out;
+}
